@@ -1,0 +1,177 @@
+* {
+    font-family: 'Work Sans';
+    margin: 0px;
+}
+nav{
+    background-color: #F15B22;
+    color: #fff;
+    line-height: 50px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+nav ul li:hover{
+    background-color: #ffc800;
+    cursor: pointer;
+    color: #000;
+}
+
+/* BANNER SECTION START */
+.banner-img{
+    background-image: url('../banner/banner1.png');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.heading{
+    position: absolute;
+    text-align: right;
+    top: 30%;
+    right: 5%;
+    width: 335px;
+}
+.heading h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.heading .btn{
+    padding: 7px 15px;
+    background-color: #F15B22;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.heading small{
+    display: block;
+    margin-bottom: 20px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+.img-sec img{
+    width: 350px;
+}
+.title{
+    width: 30%;
+}
+.description{
+    margin: 20px 0;
+}
+.title p{
+    color: #444343;
+    font-size: 14px;
+}
+.title span{
+    color: #16D887;
+}
+.my-plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.web-dev, .java, .habit, .e-com{
+    text-align: center;
+}
+.my-plans{
+    margin-bottom: 75px;
+}
+.my-plans h3{
+    margin: 10px 0px;
+}
+.sub-banner{
+    background-image: url('../images/watch.png');
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    background-size: cover;
+    border-radius: 6px;
+}
+.watch{
+    background-image: url('../images/gradient3.png');
+    width: 100%;
+    height: 200px;
+    border-radius: 6px;
+    position: relative;
+}
+.watch h2{
+    color: #fff;
+}
+.sub-banner{
+    margin-bottom: 75px;
+}
+.banner-ad{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.banner-ad h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.banner-ad button{
+    width: 100px;
+    border: none;
+    padding: 10px 15px;
+    color: #F15B22;
+    border-radius: 3px;
+}
+.future-sec{
+    background-color: #151414;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding-top: 80px;
+}
+.future{
+    width: 30%;
+}
+.future h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.future p{
+    margin: 10px 0;
+}
+.social-icons img{
+    width: 35px;
+    margin-right: 10px;
+}
+.subscribe h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+.subscribe input{
+    height: 35px;
+    background-color: #151414;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.subscribe button{
+    width: 100px;
+    border: none;
+    padding: 10px 15px;
+    color: #F15B22;
+    border-radius: 3px;
+    font-weight: 700;
+}
+button{
+    cursor: pointer;
+}
